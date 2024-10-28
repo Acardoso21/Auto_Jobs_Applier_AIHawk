@@ -251,7 +251,7 @@ This file defines your job search parameters and bot behavior. Each section cont
     - openai: <https://api.pawan.krd/cosmosrp/v1>
     - ollama: <http://127.0.0.1:11434/>
     - claude: <https://api.anthropic.com/v1>
-    - gemini: no api_url
+    - gemini: <https://aistudio.google.com/app/apikey>
 - Note: To run local Ollama, follow the guidelines here: [Guide to Ollama deployment](https://github.com/ollama/ollama)
   
 ### 3. plain_text_resume.yaml
@@ -705,6 +705,8 @@ For further assistance, please create an issue on the [GitHub repository](https:
 - If you encounter any issues, you can open an issue on [GitHub](https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk/issues).
   Please add valuable details to the subject and to the description. If you need new feature then please reflect this.  
   I'll be more than happy to assist you!
+
+- Note for Contributors: If you would like to submit a Pull Request (PR), please target the `release` branch instead of `main`. The `release` branch is used for testing new code changes and will be periodically merged into `main` after validation. This approach ensures that only tested features make it into the main branch.
 
 ## Conclusion
 

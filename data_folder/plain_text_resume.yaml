@@ -1,130 +1,166 @@
 personal_information:
-  name: "[Your Name]"
-  surname: "[Your Surname]"
-  date_of_birth: "[Your Date of Birth]"
-  country: "[Your Country]"
-  city: "[Your City]"
-  address: "[Your Address]"
-  zip_code: "[Your zip code]"
-  phone_prefix: "[Your Phone Prefix]"
-  phone: "[Your Phone Number]"
-  email: "[Your Email Address]"
-  github: "[Your GitHub Profile URL]"
-  linkedin: "[Your LinkedIn Profile URL]"
+  name: "Andre"
+  surname: "Cardoso"
+  date_of_birth: "12/21/2002"
+  email: "acardoso.ny@gmail.com"
+  github: "https://github.com/Acardoso21"
+  linkedin: "https://www.linkedin.com/in/andre-cardoso-/"
+  country: "USA"
+  city: "Boston"
+  address: "7 Spear St"
+  zip_code: "02115"
+  phone_prefix: "+1"
+  phone: "6465091848"
 
-education_details:
-  - education_level: "[Your Education Level]"
-    institution: "[Your Institution]"
-    field_of_study: "[Your Field of Study]"
-    final_evaluation_grade: "[Your Final Evaluation Grade]"
-    start_date: "[Start Date]"
-    year_of_completion: "[Year of Completion]"
-    exam:
-      exam_name_1: "[Grade]"
-      exam_name_2: "[Grade]"
-      exam_name_3: "[Grade]"
-      exam_name_4: "[Grade]"
-      exam_name_5: "[Grade]"
-      exam_name_6: "[Grade]"
+education:
+  - school: "Northeastern University"
+    location: "Boston, MA"
+    degree: "Bachelor of Science in Computer Engineering"
+    graduation_date: "May 2026"
+    GPA: "3.011"
 
-experience_details:
-  - position: "[Your Position]"
-    company: "[Company Name]"
-    employment_period: "[Employment Period]"
-    location: "[Location]"
-    industry: "[Industry]"
-    key_responsibilities:
-      - responsibility_1: "[Responsibility Description]"
-      - responsibility_2: "[Responsibility Description]"
-      - responsibility_3: "[Responsibility Description]"
-    skills_acquired:
-      - "[Skill]"
-      - "[Skill]"
-      - "[Skill]"
+  - school: "United Nations International School"
+    location: "New York, NY"
+    degree: "International Baccalaureate Diploma"
+    graduation_date: "May 2021"
+    GPA: "5.72 / 7"
 
-  - position: "[Your Position]"
-    company: "[Company Name]"
-    employment_period: "[Employment Period]"
-    location: "[Location]"
-    industry: "[Industry]"
-    key_responsibilities:
-      - responsibility_1: "[Responsibility Description]"
-      - responsibility_2: "[Responsibility Description]"
-      - responsibility_3: "[Responsibility Description]"
-    skills_acquired:
-      - "[Skill]"
-      - "[Skill]"
-      - "[Skill]"
+technical_skills:
+  programming_languages:
+    - "Python"
+    - "C++"
+    - "Java"
+    - "HTML/CSS"
+    - "JavaScript"
+    - "MATLAB"
+  microcontrollers:
+    - "Arduino"
+    - "Raspberry Pi"
+    - "Lego Mindstorm"
+  digital_circuits:
+    - "Gates"
+    - "Latches"
+    - "FPGAs"
+  software_tools:
+    - "Maya"
+    - "Blender"
+    - "Fusion360"
+    - "solidworks"
 
-projects:
-  - name: "[Project Name]"
-    description: "[Project Description]"
-    link: "[Project Link]"
+experience:
+  - company: "Vodafone"
+    title: "Software Developer (Intern)"
+    dates: "May 2024 - Nov 2024"
+    responsibilities:
+      - "Automated code integration and deployment processes, improving pipeline quality with efficient, error-free workflows and rapid releases."
 
-  - name: "[Project Name]"
-    description: "[Project Description]"
-    link: "[Project Link]"
+  - company: "Cisco"
+    title: "Technical Consulting Engineer (Co-op)"
+    dates: "Jan 2023 – Jun 2023"
+    responsibilities:
+      - "Enhanced customer satisfaction by developing problem-solving skills on the Webex TAC team."
+      - "Gained understanding of IP phone operations on the CUCM team, replicating customer issues with virtual machines to ensure smooth functionality."
 
-achievements:
-  - name: "[Achievement Name]"
-    description: "[Achievement Description]"
-  - name: "[Achievement Name]"
-    description: "[Achievement Description]"
+  - company: "Little Frog Restaurant"
+    title: "Host"
+    dates: "May 2021 – Jul 2021"
+    responsibilities:
+      - "Developed customer service skills, handling high-pressure situations and gaining insights into the hospitality industry."
 
-certifications:
-  - name: "[Certification Name]"
-    description: "[Certification Description]"
-  - name: "[Certification Name]"
-    description: "[Certification Description]"
+  - company: "Funding Bright Futures"
+    title: "Operations & Finance Team Member"
+    dates: "Apr 2020 - Aug 2021"
+    responsibilities:
+      - "Led weekly meetings to review class schedules, registrations, and donations for a non-profit providing scholarships for underprivileged students."
+
+  - company: "Edinburgh Fringe Festival"
+    title: "Stage Manager"
+    dates: "Sep 2018 - May 2020"
+    productions:
+      - "The Cult that Made Spoons": "Organized four performances, assisted with various production elements, and led fundraising, raising over $7,000."
+      - "Twelfth Night & Willy Wonka": "Assisted in casting, organized multi-location rehearsals, and managed backstage operations with a 10+ member crew."
+
+academic_projects:
+  - name: "Wordle Twitter Bot"
+    date: "Spring 2022"
+    description: "Analyzed Twitter data using the Twitter API to compare user guesses against a Wordle solver created in Python."
+    link: "https://twitter.com/WordleGuessAve"
+
+  - name: "Minecraft Maze"
+    date: "Spring 2022"
+    description: "Created a Minecraft-inspired board game using Arduino and presented it at the Boston Children’s Museum."
+
+  - name: "Knock Hockey"
+    date: "Fall 2021"
+    description: "Constructed a 4-player knock hockey game with score tracking using Arduino."
+
+  - name: "Productivity Google Chrome Extension"
+    date: "Spring 2021"
+    description: "Designed a productivity tool with site-blocking, time tracking, and a to-do list using JavaScript, HTML, and CSS."
+
+personal_projects:
+  - name: "Built a Desktop PC"
+    description: ""
+  - name: "Python Program for Tic Tac Toe"
+    description: ""
+  - name: "Python Word Solver"
+    description: ""
+  - name: "Voron3d wiki"
+    description: ""
+    link: "https://voron3d.wiki"
+  - name: "Portfolio website"
+    description: ""
+    link: "https://andrecardoso.me"
 
 languages:
-  - language: "[Language]"
-    proficiency: "[Proficiency Level]"
-  - language: "[Language]"
-    proficiency: "[Proficiency Level]"
+  - language: "English"
+    proficiency: "Fluent"
+  - language: "Portuguese"
+    proficiency: "Fluent"
+  - language: "Spanish"
+    proficiency: "Fluent"
 
 interests:
-  - "[Interest]"
-  - "[Interest]"
-  - "[Interest]"
+  - "Computers"
+  - "Technology"
+  - "Cars"
+  - "Photography"
 
 availability:
-  notice_period: "[Notice Period]"
+  notice_period: "1 month"
 
 salary_expectations:
-  salary_range_usd: "[Salary Range]"
+  salary_range_usd: "75000-125000"
 
 self_identification:
-  gender: "[Gender]"
-  pronouns: "[Pronouns]"
-  veteran: "[Yes/No]"
-  disability: "[Yes/No]"
-  ethnicity: "[Ethnicity]"
-
+  gender: "Male"
+  pronouns: "He/Him"
+  veteran: "No"
+  disability: "Yes"
+  ethnicity: "white"
 
 legal_authorization:
-  eu_work_authorization: "[Yes/No]"
-  us_work_authorization: "[Yes/No]"
-  requires_us_visa: "[Yes/No]"
-  requires_us_sponsorship: "[Yes/No]"
-  requires_eu_visa: "[Yes/No]"
-  legally_allowed_to_work_in_eu: "[Yes/No]"
-  legally_allowed_to_work_in_us: "[Yes/No]"
-  requires_eu_sponsorship: "[Yes/No]"
-  canada_work_authorization: "[Yes/No]"
-  requires_canada_visa: "[Yes/No]"
-  legally_allowed_to_work_in_canada: "[Yes/No]"
-  requires_canada_sponsorship: "[Yes/No]"
-  uk_work_authorization: "[Yes/No]"
-  requires_uk_visa: "[Yes/No]"
-  legally_allowed_to_work_in_uk: "[Yes/No]"
-  requires_uk_sponsorship: "[Yes/No]"
-
+  eu_work_authorization: "Yes"
+  us_work_authorization: "Yes"
+  requires_us_visa: "No"
+  requires_us_sponsorship: "No"
+  requires_eu_visa: "No"
+  legally_allowed_to_work_in_eu: "Yes"
+  legally_allowed_to_work_in_us: "Yes"
+  requires_eu_sponsorship: "No"
+  canada_work_authorization: "No"
+  requires_canada_visa: "Yes"
+  legally_allowed_to_work_in_canada: "No"
+  requires_canada_sponsorship: "Yes"
+  uk_work_authorization: "No"
+  requires_uk_visa: "Yes"
+  legally_allowed_to_work_in_uk: "No"
+  requires_uk_sponsorship: "Yes"
 
 work_preferences:
-  remote_work: "[Yes/No]"
-  in_person_work: "[Yes/No]"
-  open_to_relocation: "[Yes/No]"
-  willing_to_complete_assessments: "[Yes/No]"
-  willing_to_undergo_drug_tests: "[Yes/No]"
-  willing_to_undergo_background_checks: "[Yes/No]"
+  remote_work: "Yes"
+  in_person_work: "Yes"
+  open_to_relocation: "Yes"
+  willing_to_complete_assessments: "Yes"
+  willing_to_undergo_drug_tests: "No"
+  willing_to_undergo_background_checks: "Yes"

@@ -41,8 +41,8 @@ company_blacklist:
   - Cisco
 
 title_blacklist:
-  - word1
-  - word2
+  - VR
+  - AR
 
 location_blacklist:
   - Canada
@@ -51,7 +51,7 @@ location_blacklist:
 
 job_applicants_threshold:
   min_applicants: 0
-  max_applicants: 10
+  max_applicants: 1
 
 llm_model_type: openai
 llm_model: 'gpt-4o-mini'

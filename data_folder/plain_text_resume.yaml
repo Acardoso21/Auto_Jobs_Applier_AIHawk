@@ -19,12 +19,6 @@ education_details:
     final_evaluation_grade: "3.011/4"
     start_date: "2021"
     year_of_completion: "2026"
-    exam:
-      Algorithms: "A"
-      Data Structures: "B+"
-      Database Systems: "A"
-      Operating Systems: "A-"
-      Web Development: "B"
 
   - education_level: "High School"
     institution: "United Nations International School"

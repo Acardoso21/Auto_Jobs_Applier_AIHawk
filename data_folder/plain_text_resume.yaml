@@ -20,16 +20,16 @@ education_details:
     start_date: "2021"
     year_of_completion: "2026"
 
-  - education_level: "High School"
-    institution: "United Nations International School"
-    field_of_study: "International Baccalaureate Diploma"
-    year_of_completion: "May 2021"
-    final_evaluation_grade: "5.72 / 7"
+  # - education_level: "High School"
+  #   institution: "United Nations International School"
+  #   field_of_study: "International Baccalaureate Diploma"
+  #   year_of_completion: "May 2021"
+  #   final_evaluation_grade: "5.72 / 7"
 
 experience_details:
   - company: "Vodafone"
     position: "Software Developer (Intern)"
-    dates: "May 2024 - Present"
+    employment_period: "May 2024 - Present"
     location: "Lisboa, Portugal"
     industry: "Technology"
     responsibilities:
@@ -71,6 +71,7 @@ experience_details:
     position: "Operations & Finance Team Member"
     employment_period: "Apr 2020 - Aug 2021"
     location: "New York"
+    industry: "Charity"
     responsibilities:
       - responsibility: "Led weekly meetings to review class schedules, registrations, and donations for a non-profit providing scholarships for underprivileged students."
       - responsibility: "Creating a team structure and organize the charity"
@@ -81,8 +82,10 @@ experience_details:
 
   - company: "Edinburgh Fringe Festival"
     position: "Stage Manager"
+    industry: "theater"
     employment_period: "Sep 2018 - May 2020"
-    productions:
+    location: "Edinburgh/New York"
+    responsibilities:
       - responsibility: "Organized four performances, assisted with various production elements, and led fundraising, raising over $7,000."
       - responsibility: "Assisted in casting, organized multi-location rehearsals, and managed backstage operations with a 10+ member crew."
 
@@ -116,7 +119,6 @@ projects:
   - name: "Portfolio website"
     description: ""
     link: "https://andrecardoso.me"
-
 languages:
   - language: "English"
     proficiency: "Fluent"

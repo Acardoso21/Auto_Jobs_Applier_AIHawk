@@ -31,7 +31,6 @@ positions:
 
 locations:
   - Boston
-  - New York
 
 
 apply_once_at_company: true
@@ -52,7 +51,7 @@ location_blacklist:
 
 job_applicants_threshold:
   min_applicants: 0
-  max_applicants: 1
+  max_applicants: 10
 
 llm_model_type: openai
 llm_model: 'gpt-4o-mini'

@@ -4,7 +4,7 @@ experienceLevel:
   internship: true
   entry: true
   associate: true
-  mid-senior level: false
+  mid-senior level: true
   director: false
   executive: false
 
@@ -25,29 +25,34 @@ date:
 
 positions:
   - Software engineer
-  - CI/CD engineer
+  - Software Developer
+  - Programmer
+  - CI/CD
 
 locations:
-  - United States
+  - Boston
+  - New York
+
 
 apply_once_at_company: true
 
-distance: 100
+distance: 50
 
 company_blacklist:
-  - wayfair
-  - Crossover
+  - Cisco
 
 title_blacklist:
   - word1
   - word2
 
 location_blacklist:
-  - Brazil
+  - Canada
+  - Mexico
+
 
 job_applicants_threshold:
   min_applicants: 0
-  max_applicants: 30
+  max_applicants: 1
 
 llm_model_type: openai
 llm_model: 'gpt-4o-mini'

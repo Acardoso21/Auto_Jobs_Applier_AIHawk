@@ -12,75 +12,87 @@ personal_information:
   phone_prefix: "+1"
   phone: "6465091848"
 
-education:
-  - school: "Northeastern University"
-    location: "Boston, MA"
-    degree: "Bachelor of Science in Computer Engineering"
-    graduation_date: "May 2026"
-    GPA: "3.011"
+education_details:
+  - education_level: "Bachelor's Degree"
+    institution: "Northeastern University"
+    field_of_study: "Computer Engineering"
+    final_evaluation_grade: "3.011/4"
+    start_date: "2021"
+    year_of_completion: "2026"
+    exam:
+      Algorithms: "A"
+      Data Structures: "B+"
+      Database Systems: "A"
+      Operating Systems: "A-"
+      Web Development: "B"
 
-  - school: "United Nations International School"
-    location: "New York, NY"
-    degree: "International Baccalaureate Diploma"
-    graduation_date: "May 2021"
-    GPA: "5.72 / 7"
+  - education_level: "High School"
+    institution: "United Nations International School"
+    field_of_study: "International Baccalaureate Diploma"
+    year_of_completion: "May 2021"
+    final_evaluation_grade: "5.72 / 7"
 
-technical_skills:
-  programming_languages:
-    - "Python"
-    - "C++"
-    - "Java"
-    - "HTML/CSS"
-    - "JavaScript"
-    - "MATLAB"
-  microcontrollers:
-    - "Arduino"
-    - "Raspberry Pi"
-    - "Lego Mindstorm"
-  digital_circuits:
-    - "Gates"
-    - "Latches"
-    - "FPGAs"
-  software_tools:
-    - "Maya"
-    - "Blender"
-    - "Fusion360"
-    - "solidworks"
-
-experience:
+experience_details:
   - company: "Vodafone"
-    title: "Software Developer (Intern)"
-    dates: "May 2024 - Nov 2024"
+    position: "Software Developer (Intern)"
+    dates: "May 2024 - Present"
+    location: "Lisboa, Portugal"
+    industry: "Technology"
     responsibilities:
-      - "Automated code integration and deployment processes, improving pipeline quality with efficient, error-free workflows and rapid releases."
+      - responsibility: "Automated code integration and deployment processes,"
+      - responsibility: "improving pipeline quality with efficient"
+      - responsibility: "error-free workflows and rapid releases."
+    skills_acquired:
+      - "Jenkins"
+      - "Pipeline development"
+      - "AWS"
+      - "Agile"
+      - "DevOps"
 
   - company: "Cisco"
-    title: "Technical Consulting Engineer (Co-op)"
-    dates: "Jan 2023 – Jun 2023"
+    position: "Technical Consulting Engineer (Co-op)"
+    employment_period: "Jan 2023 – Jun 2023"
+    location: "boston"
+    industry: "Communications"
     responsibilities:
-      - "Enhanced customer satisfaction by developing problem-solving skills on the Webex TAC team."
-      - "Gained understanding of IP phone operations on the CUCM team, replicating customer issues with virtual machines to ensure smooth functionality."
+      - responsibility: "Enhanced customer satisfaction by developing problem-solving skills on the Webex TAC team."
+      - responsibility: "Gained understanding of IP phone operations on the CUCM team, replicating customer issues with virtual machines to ensure smooth functionality."
+    skills_acquired:
+      - "Network structure and desgin"
+      - "troubleshooting methodologies"
+      - "High stress customer interactions"
 
   - company: "Little Frog Restaurant"
-    title: "Host"
-    dates: "May 2021 – Jul 2021"
+    position: "Host"
+    location: "New York"
+    industry: "food-Service"
+    employment_period: "May 2021 – Jul 2021"
     responsibilities:
       - "Developed customer service skills, handling high-pressure situations and gaining insights into the hospitality industry."
+    skills_acquired:
+      - "Managing a crowd of customers"
+      - "Customer service"
 
   - company: "Funding Bright Futures"
-    title: "Operations & Finance Team Member"
-    dates: "Apr 2020 - Aug 2021"
+    position: "Operations & Finance Team Member"
+    employment_period: "Apr 2020 - Aug 2021"
+    location: "New York"
     responsibilities:
-      - "Led weekly meetings to review class schedules, registrations, and donations for a non-profit providing scholarships for underprivileged students."
+      - responsibility: "Led weekly meetings to review class schedules, registrations, and donations for a non-profit providing scholarships for underprivileged students."
+      - responsibility: "Creating a team structure and organize the charity"
+    skills_acquired:
+      - "Sending invoices"
+      - "Managing a team"
+      - "Tracking expensise"
 
   - company: "Edinburgh Fringe Festival"
-    title: "Stage Manager"
-    dates: "Sep 2018 - May 2020"
+    position: "Stage Manager"
+    employment_period: "Sep 2018 - May 2020"
     productions:
-      - "The Cult that Made Spoons": "Organized four performances, assisted with various production elements, and led fundraising, raising over $7,000."
-      - "Twelfth Night & Willy Wonka": "Assisted in casting, organized multi-location rehearsals, and managed backstage operations with a 10+ member crew."
+      - responsibility: "Organized four performances, assisted with various production elements, and led fundraising, raising over $7,000."
+      - responsibility: "Assisted in casting, organized multi-location rehearsals, and managed backstage operations with a 10+ member crew."
 
-academic_projects:
+projects:
   - name: "Wordle Twitter Bot"
     date: "Spring 2022"
     description: "Analyzed Twitter data using the Twitter API to compare user guesses against a Wordle solver created in Python."
@@ -98,9 +110,8 @@ academic_projects:
     date: "Spring 2021"
     description: "Designed a productivity tool with site-blocking, time tracking, and a to-do list using JavaScript, HTML, and CSS."
 
-personal_projects:
   - name: "Built a Desktop PC"
-    description: ""
+    description: "I have build multiple PC"
   - name: "Python Program for Tic Tac Toe"
     description: ""
   - name: "Python Word Solver"
@@ -127,7 +138,7 @@ interests:
   - "Photography"
 
 availability:
-  notice_period: "1 month"
+  notice_period: "2 weeks"
 
 salary_expectations:
   salary_range_usd: "75000-125000"
